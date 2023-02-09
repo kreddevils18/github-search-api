@@ -1,0 +1,26 @@
+server:
+  port: ":4000"
+
+github:
+  apikey: ""
+
+db:
+  user: root
+  password: example
+  host: localhost
+  port: 27017
+
+elasticsearch:
+  username: elastic
+  password: P@ssw0rd
+  address: http://localhost:9200
+
+organization:
+  name: ""
+  team: ""
+
+rabbitmq:
+  host: localhost
+  port: 5672
+  user: root
+  password: example
